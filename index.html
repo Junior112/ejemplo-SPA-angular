@@ -1,0 +1,27 @@
+
+<html ng-app="app">
+    <head>
+    <!--<link rel="stylesheet" href="http://rawgit.com/t4t5/sweetalert/master/dist/sweetalert.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://rawgit.com/t4t5/sweetalert/master/dist/sweetalert.min.js"></script>
+    <script src="http://rawgit.com/tushariscoolster/ng-sweet-alert/master/ng-sweet-alert.js"></script>-->
+
+    </head>
+    <body ng-controller="AppCtrl">
+        <a href="#/">Home</a>
+        <a href="#/contact">Contact</a>
+        <a href="#/search">Search</a>
+        <div class="content-container" id="content" ng-view>
+		</div>
+
+        <script src="/bower_components/angular/angular.min.js"></script>
+        <script src="/bower_components/angular-route/angular-route.min.js"></script>
+        <script src="/bower_components/ocLazyLoad/ocLazyLoad.min.js"></script>
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/directives.js"></script>
+        <script src="/scripts/modules/home.js"></script>
+        <script src="/scripts/modules/contact.js"></script>
+        <script src="/scripts/modules/search.js"></script>
+    </body>
+</html>
